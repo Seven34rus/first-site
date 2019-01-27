@@ -1,0 +1,364 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width: 100%;
+}
+.menu {
+  margin-top:18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.description {
+  margin-left: 9px;
+}
+.menu-logo {
+  display: flex;
+  align-items:center;  
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background: url('https://pp.userapi.com/c845020/v845020997/2d33b/XCtcdATaD6M.jpg');
+  background-size: 100%;
+  border-radius: 50%;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+.menu-button {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+.menu-button:hover {
+  background-color: #13578a;
+  border: 2px solid #13578a;
+  color: white;
+}
+.menu-list a::before{
+display: block;
+position: absolute;
+content: "";
+height: 3px;
+width: 0;
+background-color: #2b2a2c;
+transition: width .5s ease-in-out, left .5s ease-in-out;
+left: 50%;
+bottom: 0;
+}
+.menu-list a::after{
+display: block;
+position: absolute;
+content: "";
+width: 0; 
+bottom: 0;  
+height: 3px;
+background-color: #2b2a2c;
+transition: width .5s ease-in-out;
+left: 50%;
+}
+.menu-list a:hover::before{
+width: 50%;
+left: 0;
+}
+.menu-list a:hover::after{
+width: 50%;
+}
+.hero {
+  padding-top: 110px;
+  padding-bottom: 112px;
+  background: url('https://wmpics.pics/di-CFIR.png') no-repeat  bottom;  
+}
+.hero-subtitle {
+  font-size: 32px;
+}
+.hero-title {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description {
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social {
+  margin-top: 26px;
+}
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;  
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg {
+  background-color: #1869ff;
+}
+.facebook-bg {
+  background-color: #3a5898;
+}
+.insta-bg {
+  background-color: #13578a;
+}
+.vk-bg {
+ background-color: #56acef;
+}
+.hero-buttons {
+  margin-top: 30px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 35px;
+  display: inline-block;
+}
+.button-primary {
+  color: #fff;
+}
+.button-o {
+  background-color: transparent;
+  border-radius: 50px;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+  margin-left: 17px;
+}
+.projects{
+  padding: 95px 0;
+}
+.project-cards {
+
+}
+.project-card_row {
+  display: flex;
+  justify-content: space-between;
+}
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.project-card_image {
+  height: 300px;
+}
+.project-card_info {
+  padding: 19px 13px;
+}
+.project-category {
+  display: block;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.project-1 {
+  background: url('https://templatemag.com/wp-content/uploads/smash-one-page-bootstrap-template-640x512.jpg') center;
+  background-size: 100%;  
+}
+.project-2 {
+    background: url('https://templatemag.com/wp-content/uploads/smash-one-page-bootstrap-template-640x512.jpg') center;
+  background-size: 100%;  
+}
+.project-3 {
+    background: url('https://templatemag.com/wp-content/uploads/smash-one-page-bootstrap-template-640x512.jpg') center;
+  background-size: 100%;  
+}
+.project-4 {
+  background: url('https://templatemag.com/wp-content/uploads/smash-one-page-bootstrap-template-640x512.jpg') center;
+  background-size: 100%; 
+  background-color: #717072;
+}
+.project-5 {
+  background: url('https://templatemag.com/wp-content/uploads/smash-one-page-bootstrap-template-640x512.jpg') center;
+  background-size: 100%;  
+  background-color: #717072;
+}
+.project-6 {
+    background: url('https://templatemag.com/wp-content/uploads/smash-one-page-bootstrap-template-640x512.jpg') center;
+  background-size: 100%;  
+  background-color: #717072;
+}
+.project-7 {
+   background: url('https://templatemag.com/wp-content/uploads/smash-one-page-bootstrap-template-640x512.jpg') center;
+  background-size: 100%;  
+  background-color: #717072;
+}
+.project-8 {
+  background: url('https://templatemag.com/wp-content/uploads/smash-one-page-bootstrap-template-640x512.jpg') center;
+  background-size: 100%;  
+  background-color: #717072;
+}
+.project-9 {
+  background: url('https://templatemag.com/wp-content/uploads/smash-one-page-bootstrap-template-640x512.jpg') center;
+  background-size: 100%;
+  background-color: #717072;
+}
+
+.about-me-container{
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url("https://wmpics.pics/di-AU43.png") no-repeat left top;
+}
+h2{
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.about-me-title{
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: 100px;
+  width: 480px;
+}
+.about-me-info{
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  width: 480px;
+  font-size: 12px;
+  color: #717072;
+  font-weight: 300;
+  line-height: 24px;
+}
+.about-buttons{
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: 100px;
+  width: 480px;
+}
+.footer{
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text{
+  display: flex;
+  align-items: center;
+}
+.copyright{
+  padding-left: 70px;
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social_link{
+  font-size: 20px;
+  margin-right: 13px;
+ 
+}
+.footer-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+} 
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.footer-button{
+  
+  font-size: 14px;
+  background-color: transparent ;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  padding: 8px 22px;
+}
+@media (max-width:1200px){
+  .container{
+    width: 965px;
+  }
+  .about-me-container{
+    background: transparent;
+  }
+  .project-card{
+    width: 48%;
+  }
+  
+}
+@media (max-width:992px){
+  .container{
+    width: 760px;
+  }
+  .about-me-container{
+    background: none;
+  }
+  .project-card{
+    width: 48%;
+  }
+  
+}
+@media (max-width:768px){
+  .description_small {
+    font-size: 10px;
+  }
+  .menu-list{
+    display: none;
+  }
+  .hero{
+    padding-bottom: 550px;
+    padding-top: 30px;
+  }
+  .about-me-container{
+    background: none;
+  }
+  .container{
+    width: 95%;
+  }
+  .project-card{
+    width: 95%;
+    margin: 30px auto;
+  }
+  
+}
